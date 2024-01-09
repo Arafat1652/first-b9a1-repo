@@ -322,13 +322,20 @@ line-height: 32px;
 /* margin: 28px 68px auto; */
 }
 .sell-bgimg{
-    background: url(../resources/Rectangle\ 1.png);
-    background-repeat: no-repeat;
-    position: bottom right;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    position: bottom right ;
+    gap: 0px;
+
+
 }
 .sell-image{
     display: flex;
-
+    flex-direction: row;
+    margin: 0px;
+    align-items: center;
+    max-width: 1360px;
 
 
 }
@@ -419,4 +426,54 @@ margin: 48px auto;
  flex-grow: 1;
   border-radius: 50px 50px 50px 50px;
   border: 0;
+}
+/* footer section
+ */
+.footer-column{
+display: flex;
+justify-content: space-between;
+background: #070211;
+width: 100%;
+height: 609px;
+color: white;
+}
+.footer-column  p{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+}
+.footer-l{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.social-links{
+    text-align: center;
+    align-items: center;
+     margin-bottom: 250px;
+}
+.web-icon{
+    display: flex;
+    position: right;
+    
+}
+.social-links{
+    flex-direction: column;
+}
+address{
+    margin: 30px auto;
+}
+.social-links a{
+    margin-right: 30px;
+  }
+site.icon{
+    gap: 30px;
+    padding: 200px;
+}
+.web-icon{
+    display: flex;
+}
+.circle-icon{
+    display: flex;
 }
